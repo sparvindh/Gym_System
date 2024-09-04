@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DbConnection {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/gym";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "SPgym!@#$%^&*";
+    private static final String PASSWORD = "";
     private static Connection conn = null;
 
     DbConnection(){
